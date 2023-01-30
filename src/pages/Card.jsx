@@ -1,15 +1,14 @@
 import React from 'react'
-import BackBtn from '../components/BackBtn'
-import ProductCard from '../components/ProductCard'
+import BackBtn from '../components/BackBtn/BackBtn'
+import ProductCard from '../components/ProductCard/ProductCard'
+import './card.css'
 
 const Card = () => {
   return (
     <div className='card'>
         <div className="card__wrapper">
             <BackBtn/>
-            <div className="card__container">
-                <ProductCard/>
-            </div>
+            <ProductCard/>
         </div>
     </div>
   )

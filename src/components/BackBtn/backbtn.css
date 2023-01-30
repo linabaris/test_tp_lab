@@ -1,0 +1,19 @@
+.btn {
+    display: flex;
+    padding: 1px;
+    align-items: center;
+}
+
+.btn-back {
+    background-color: #EDF2F8;
+    padding-left: 1px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: block;
+
+}
+.back-arrow {
+    scale: 1.3;
+}

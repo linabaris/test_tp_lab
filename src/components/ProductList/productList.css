@@ -1,0 +1,23 @@
+.productItem__col {
+    display: flex;
+    justify-content: start;
+    background-color: #EDF2F8;
+    height: 35px;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.col-picture {
+    width: 6%;
+    text-align: center;
+}
+.col-name {
+    width: 50%;
+}
+.col-views, .col-date-start, .col-date-end {
+    width: 13%;
+    text-align: center;
+}

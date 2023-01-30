@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Comfortaa', sans-serif;
+    outline: none;
+
+}
+button {
+    border: none;
+    cursor: pointer;
+}
+a {
+    color: #4D5969;
+}
+.home-page__wrapper {
+    max-width: 1204px;
+    margin: 0 auto;
+}
+
+/* variables */
+$text-main:#4D5969;
+$text-blue: #2A7BE4;
+$text-selected:  #344050;
+
+@mixin font($size, $height, $weight) {
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+  }
