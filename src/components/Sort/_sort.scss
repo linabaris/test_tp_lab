@@ -1,0 +1,27 @@
+.sort {
+    @include font(normal, 500, 16px, 16px);
+    width: 70%;
+    display: flex;
+    gap: 30px;
+    margin: 26px 0 34px;
+
+    &__category {
+        cursor: pointer;
+        color: $text-unselected;
+    }
+}
+
+.active {
+    color: $text-grey-dark;
+}
+
+.ascending::after {
+    content: url(../../assets/asc.svg);
+    bottom: 0;
+
+}
+
+.discending::after {
+    content: url(../../assets/desc.svg);
+    bottom: 0;
+}

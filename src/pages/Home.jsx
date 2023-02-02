@@ -26,7 +26,9 @@ function Home() {
             <Sort/>
             <SearchForm/>
           </div>
-          <ProductList/>
+          <div className="home-page__product-list">
+            <ProductList/>
+          </div>
         </ProductDataContext.Provider>
     </div>
   )

@@ -1,0 +1,58 @@
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    margin-bottom: 2%;
+
+    &__btn {
+        width: 32px;
+        height: 32px;
+        background-color: #FFFFFF;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 1px 1.5px rgba(0, 0, 0, 0.07), 0px 2px 5px rgba(43, 45, 80, 0.08), 0px 0px 0px 1px rgba(43, 45, 80, 0.1);
+        border-radius: 2px;
+
+        &:hover {
+            background-color: #EDF2F8;
+        }
+
+        &:active {
+            transform: scale(0.99);
+            transition: transform 0.2ms linear;
+        }
+    }
+
+    &__btn_prev, &__btn_next {
+        width: 32px;
+        height: 32px;
+        border: 1px solid #FFFFFF;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 1px 1.5px rgba(0, 0, 0, 0.07), 0px 2px 5px rgba(43, 45, 80, 0.08), 0px 0px 0px 1px rgba(43, 45, 80, 0.1);
+        border-radius: 2px;
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+            background-color: #EDF2F8;
+        }
+
+        &:active {
+            transform: scale(0.99);
+            transition: transform 0.2ms linear;
+        }
+    }
+
+    &__btn_prev {
+        background-image: url(../../assets/arrow-left.svg);
+    }
+
+    &__btn_next {
+        background-image: url(../../assets/arrow-rigth.svg);
+    }
+    &__select {
+        border: none;
+        padding: 7px;
+        font-size: 13px;
+        font-style: normal;
+    }
+}

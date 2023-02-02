@@ -1,0 +1,109 @@
+.card {
+    &__container {
+        width: $content-width;
+        height: 754px;
+        background-color: #FFFFFF;
+        margin-top: 48px;
+        padding: 40px 80px 0;
+    }
+    &__header {
+        @include flex(flex, space-between, center);
+    }
+    &-header {
+        &__discount {
+            @include font (normal, 600, 22px, 27px);
+            text-align: center;
+            width: 73px;
+            height: 36px;
+            background-color: #F73A3A;
+            color: #fff;
+        }
+        &__logo {
+            width: 160px;
+            height: 77px;
+        }
+        &__logo img {
+            @include img-style;
+        }
+        
+    }
+    &__body {
+        display: flex;
+        margin-top: 27px;
+    }
+    &__img {
+        width: 415px;
+        height: 415px;
+    }
+    &__img img {
+        @include img-style;
+        object-fit: contain;
+    }
+    &__name {
+        @include font(normal, 600, 37.6651px, 120%);
+        color: $text-grey-dark;
+    }
+    &__info {
+        @include flex(flex, space-between);
+        max-width: 52%;
+        margin-left: 6%;
+        flex-direction: column;  
+    }
+}
+
+
+.card__prices {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+}
+.price-old__value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32.4528px;
+    line-height: 100%;
+    color: #94979C;
+    text-decoration: line-through;
+    text-decoration-color: #FF0000;
+}
+.price-new__value {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52.0364px;
+    line-height: 100%;
+    color: #344050;
+}
+.price-new__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.5018px;
+    line-height: 27px;
+    color: #6F7885;
+}
+
+.price-old__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18.5018px;
+    line-height: 27px;
+    color: #6F7885;
+}
+
+.card__footer {
+    margin: 0 auto;
+    height: 118px;
+    background-color: #D9D9D938;
+    max-width: 1200px;
+    padding-top: 36px;
+}
+.card-footer__action-description {
+    @include font (normal, 600,22px, 23px);
+    height: 100%;
+    display: block;
+    text-align: center;
+    color: $text-grey-desclaimer;
+}

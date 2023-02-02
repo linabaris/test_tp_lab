@@ -1,3 +1,15 @@
+// imports
+@import './variables';
+@import '../BackBtn/backbtn';
+@import '../Pagination/pagination';
+@import '../ProductCard/productCard';
+@import '../ProductItem/productItem';
+@import '../ProductList/productList';
+@import '../SearchForm/searchfrom';
+@import '../Sort/sort';
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -20,13 +32,3 @@ a {
     margin: 0 auto;
 }
 
-/* variables */
-$text-main:#4D5969;
-$text-blue: #2A7BE4;
-$text-selected:  #344050;
-
-@mixin font($size, $height, $weight) {
-    font-size: $size;
-    line-height: $height;
-    font-weight: $weight;
-  }

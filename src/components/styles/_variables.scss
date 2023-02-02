@@ -1,0 +1,31 @@
+// colors
+
+$text-grey-main:#4D5969;
+$text-grey-light:#9DA8BA;
+$text-grey-dark: #344050;
+$text-grey-desclaimer:#6F7885;
+$text-unselected:#2A7BE4;
+$bg-color:#EDF2F8;
+$bg-desclaimer-color:#D9D9D9;
+
+$max-width: 1440px;
+$content-width: 1200px;
+
+@mixin font ($style,  $weight, $size, $height) {
+    font-style: $style;
+    font-weight: $weight;
+    font-size: $size;
+    line-height: $height;
+}
+
+@mixin flex ($display, $justify, $align: unset) {
+    display: $display;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin img-style {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}

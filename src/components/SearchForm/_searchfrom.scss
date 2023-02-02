@@ -1,0 +1,22 @@
+.search {
+    position: relative;
+    width: 30%;
+
+    &__form {
+        width: 320px;
+        height: 36px;
+        border: 1px solid #D8E2EE;
+        border-radius: 18px;
+        padding-left: 35px;
+
+        &:focus {
+            border: 1px solid #D8E2EE;
+        }
+    }
+
+    &__icon {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+}

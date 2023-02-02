@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import './productItem.css';
 
 export default function ProductItem({props}) {
   const transformDate = (date) => {

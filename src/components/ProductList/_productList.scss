@@ -1,0 +1,19 @@
+.productItem__col-name {
+    font-family: 'Open Sans';
+    @include flex(flex, start, center);
+    @include font(normal, 600, 13px, 13px);
+    background-color: $bg-color;
+    height: 35px;
+}
+
+.col-picture {
+    width: 6%;
+    text-align: center;
+}
+.col-name {
+    width: 50%;
+}
+.col-views, .col-date-start, .col-date-end {
+    width: 13%;
+    text-align: center;
+}

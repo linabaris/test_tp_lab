@@ -5,15 +5,12 @@
 }
 
 .btn-back {
-    background-color: #EDF2F8;
+    @include font(normal, 400, 18px, 21px);
+    background-color: $bg-color;
     padding-left: 1px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
     display: block;
 
-}
+} 
 .back-arrow {
     scale: 1.3;
 }
